@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="460" viewBox="0 0 1440 460" role="img" aria-labelledby="title desc">
+  <title id="title">카드매출 분석 결과를 MCP로 연결하는 흐름</title>
+  <desc id="desc">경기데이터드림 원천 데이터와 검증된 분석 결과를 Python MCP 서버에 연결하고 Codex가 조회해 전략과 KPI로 정리하는 흐름</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L10 3 L0 6Z" fill="#ff5a2a"/></marker>
+  </defs>
+  <rect width="1440" height="460" rx="20" fill="#fafaf8"/>
+  <text x="56" y="62" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#182534">분석 결과를 부서 간 공통 근거로 연결</text>
+  <text x="56" y="98" font-family="Arial,sans-serif" font-size="17" fill="#68717a">새 모델을 학습시키는 대신 실제 데이터와 검증된 결과를 필요할 때 조회하는 방식</text>
+  <g font-family="Arial,sans-serif">
+    <g fill="#fff" stroke="#d9dfe3" stroke-width="2">
+      <rect x="48" y="164" width="240" height="178" rx="16"/>
+      <rect x="344" y="164" width="240" height="178" rx="16"/>
+      <rect x="640" y="164" width="240" height="178" rx="16"/>
+      <rect x="936" y="164" width="210" height="178" rx="16"/>
+      <rect x="1202" y="164" width="190" height="178" rx="16"/>
+    </g>
+    <g font-size="14" font-weight="700" fill="#ff5a2a">
+      <text x="72" y="198">01 · SOURCE</text><text x="368" y="198">02 · ANALYSIS</text>
+      <text x="664" y="198">03 · MCP SERVER</text><text x="960" y="198">04 · QUERY</text>
+      <text x="1226" y="198">05 · DECISION</text>
+    </g>
+    <g font-size="21" font-weight="700" fill="#182534">
+      <text x="72" y="242">경기데이터드림</text><text x="368" y="242">분석가의 결과</text>
+      <text x="664" y="242">Python · stdio</text><text x="960" y="242">Codex</text>
+      <text x="1226" y="242">공통 근거</text>
+    </g>
+    <g font-size="15" fill="#68717a">
+      <text x="72" y="278">원천 카드매출</text><text x="72" y="302">기간·지역·연령·업종</text>
+      <text x="368" y="278">EDA · Random Forest</text><text x="368" y="302">SHAP · ABC-XYZ</text>
+      <text x="664" y="278">조건별 조회 도구</text><text x="664" y="302">원자료 + 검증 인사이트</text>
+      <text x="960" y="278">필요한 수치 재조회</text><text x="960" y="302">근거 확인</text>
+      <text x="1226" y="278">AX 방어 · BX 성장</text><text x="1226" y="302">ROI · 전환 KPI</text>
+    </g>
+    <g fill="none" stroke="#ff5a2a" stroke-width="3" marker-end="url(#arrow)">
+      <path d="M288 250 H330"/><path d="M584 250 H626"/><path d="M880 250 H922"/><path d="M1146 250 H1188"/>
+    </g>
+  </g>
+  <text x="56" y="404" font-family="Arial,sans-serif" font-size="16" fill="#68717a">분석가가 만든 수치를 다른 업무 담당자도 반복 조회하고, 전략 논의의 출발점으로 공유할 수 있도록 프로토타입을 구성했습니다.</text>
+</svg>

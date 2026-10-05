@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">카드매출 데이터 분석</title>
+  <rect width="128" height="128" rx="24" fill="#fff7f1"/>
+  <rect x="24" y="30" width="80" height="58" rx="10" fill="#fff" stroke="#e6d7ce" stroke-width="3"/>
+  <path d="M25 46h78" stroke="#ff5a2a" stroke-width="10"/>
+  <circle cx="43" cy="70" r="6" fill="#ff5a2a"/>
+  <circle cx="61" cy="70" r="6" fill="#ffb28f"/>
+  <path d="M31 104h13V91H31zm23 0h13V80H54zm23 0h13V64H77" fill="#ff5a2a"/>
+</svg>
